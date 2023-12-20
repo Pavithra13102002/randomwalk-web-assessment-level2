@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <!-- Links to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main game container -->
+  <div class="game">
+    <!-- Scorecard section -->
+    <div class="score">
+      <h2>Scorecard</h2>
+      <p>Player X: <span id="playerXScore">0</span></p>
+      <p>Player O: <span id="playerOScore">0</span></p>
+    </div>
+    <div class="board" id="board">
+      <!-- Grid cells generated dynamically -->
+    </div>
+    <!-- Display game status (current player, winner) -->
+    <div class="status" id="status"></div>
+    <button onclick="resetGame()">Reset Game</button>
+  </div>
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
